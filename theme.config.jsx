@@ -12,19 +12,17 @@ export default {
     }
   },
   head: () => {
-    const { frontMatter, title } = useConfig();
-
-    const ogTitle = title ? `${title} – Anse` : `Anse`;
+    const { frontMatter } = useConfig();
     const ogDescription = frontMatter.description || 'Get answers from AI, elegantly.';
-
     return (
       <>
         <meta property="og:description" content={ogDescription} />
       </>
     );
   },
-  footer: {
-    text: 'Nextra Docs Template',
+  footer: false,
+  primaryHue: {
+    dark: 192,
+    light: 278,
   },
-  primaryHue: 250,
 }
