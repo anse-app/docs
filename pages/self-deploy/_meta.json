@@ -1,0 +1,6 @@
+{
+  "vercel": "Running on Vercel",
+  "netlify": "Running on Netlify",
+  "railway": "Running on Railway",
+  "docker": "Running on Docker"
+}

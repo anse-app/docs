@@ -1,7 +1,7 @@
 import { useConfig } from 'nextra-theme-docs'
 
 export default {
-  logo: <strong>Anse</strong>,
+  logo: <strong>Anse Docs</strong>,
   project: {
     link: 'https://github.com/anse-app/anse',
   },

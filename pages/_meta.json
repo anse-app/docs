@@ -1,0 +1,12 @@
+{
+  "contact": {
+    "title": "Anse",
+    "type": "page",
+    "href": "https://anse.app",
+    "newWindow": true
+  },
+  "index": "Introduction",
+  "concepts": "Concepts",
+  "guide": "Guide",
+  "self-deploy": "Self Deploy"
+}
